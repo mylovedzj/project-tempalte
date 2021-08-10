@@ -1,0 +1,44 @@
+$bordercolor:#EEE9E9;
+.work{
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.titles{
+  margin: 6px 0;
+  font-size: 12px;
+}
+.work_item{
+  background: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    border-bottom: 1px solid $bordercolor;
+   .item_son{
+        display: flex;
+        align-items: center;
+        padding: 6px 20px;
+        width: 110px;
+        img{
+          width: 45px;
+          height: 45px;
+          margin-right: 6px;
+        }
+        span{
+          font-size: 10px;
+        }
+        .van-badge--fixed {
+          top:10px;
+        }
+    }
+  }
+  .fade-enter {/* .fade-leave-active below version 2.1.8 */
+    transform: translate(-100%,0);
+  }
+  .fade-enter-active {/* .fade-leave-active below version 2.1.8 */
+    transform: translate(-100%,0);
+    transition: transform 0.8s ease;
+  }
+  .fade-enter-to {/* .fade-leave-active below version 2.1.8 */
+    transform: translate(0%,0);
+  }
+ 

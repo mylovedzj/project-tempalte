@@ -1,0 +1,46 @@
+$bordercolor:#EEE9E9;
+.home{
+   padding: 0 20px 20px 20px;
+   border-left: 1px solid green;
+   border-right: 1px solid green;
+   background: #F5F5F5;
+   width: 62%;
+   margin-left:100px;
+   .imgBox{
+      width: 100%;
+      img{
+        width:100%;
+      }
+   }
+  .line{
+    height: 15px;
+    margin: 1px 0;
+   // background: $bordercolor;
+  }
+}
+.overBox{
+  width: 100%;
+  height: 100%;
+  top:50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  .overitem{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 20px;
+    img{
+      width: 50px;
+      height: 50px;
+      margin-bottom:5px;
+      border-radius: 4px;
+    }
+    span{
+      font-size: 10px;
+      color: white;
+    }
+  }
+}

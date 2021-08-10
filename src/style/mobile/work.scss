@@ -1,0 +1,60 @@
+$bordercolor:#EEE9E9;
+.work{
+  background: #ffffff;
+  padding-bottom: 80px;
+}
+.titles{
+  margin: 20px 0;
+  font-size: 30px;
+}
+.work_item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid $bordercolor;
+    background: #ffffff;
+    .item_son{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 40px;
+        img{
+          width: 100px;
+          height: 100px;
+        }
+        i{
+          width: 100px;
+          height: 100px;
+        }
+        span{
+          font-size: 26px;
+          padding: 12px 0;
+        }
+        .van-badge--fixed {
+          top:14px;
+        }
+    }
+  }
+  .fade-enter {/* .fade-leave-active below version 2.1.8 */
+    transform: translate(-100%,0);
+  }
+  .fade-enter-active {/* .fade-leave-active below version 2.1.8 */
+    transform: translate(-100%,0);
+    transition: transform 0.8s ease;
+  }
+  .fade-enter-to {/* .fade-leave-active below version 2.1.8 */
+    transform: translate(0%,0);
+  }
+  .fade-leave{
+    position: absolute;
+    transform: translate(0%,0);
+  }
+  .fade-leave-active{
+    position: absolute;
+    transform: translate(0%,0);
+    transition: transform 0.8s ease;
+  }
+  .fade-leave-to{
+      position: absolute;
+      transform: translate(700px,0);
+   }
